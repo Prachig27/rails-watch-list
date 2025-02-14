@@ -20,9 +20,6 @@ Movie.create([
   { title: "The Dark Knight", overview: "Batman fights Joker" },
   { title: "Interstellar", overview: "A journey beyond the stars" }
 ])
-movies.each do |movie|
-  Movie.create!(movie)
-end
 
 # Create Lists
 puts "Creating lists..."
