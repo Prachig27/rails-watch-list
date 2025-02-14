@@ -16,9 +16,9 @@ Movie.destroy_all
 # Create Movies
 puts "Creating movies..."
 Movie.create([
-  { title: "Inception", description: "A mind-bending thriller" },
-  { title: "The Dark Knight", description: "Batman fights Joker" },
-  { title: "Interstellar", description: "A journey beyond the stars" }
+  { title: "Inception", overview: "A mind-bending thriller" },
+  { title: "The Dark Knight", overview: "Batman fights Joker" },
+  { title: "Interstellar", overview: "A journey beyond the stars" }
 ])
 movies.each do |movie|
   Movie.create!(movie)
